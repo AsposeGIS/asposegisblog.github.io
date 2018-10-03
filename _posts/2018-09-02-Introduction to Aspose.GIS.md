@@ -101,7 +101,7 @@ As you can see, working with SRS in Aspose.GIS is straightforward.
 
 ## Reading features from geodata files
 Files are loaded as instances of VectorLayer class. There are two approaches to loading files: either call <a href="https://apireference.aspose.com/net/gis/aspose.gis/driver/methods/openlayer">OpenLayer</a> on a static property of Drivers class that corresponds to your file format, specifying path to file, or call static <a href="https://apireference.aspose.com/net/gis/aspose.gis/vectorlayer/methods/open">Open</a> method of VectorLayer class, specifying path to file and a corresponding file format driver (again, via static property of Drivers class). Example here shows first approach.
-Geospatial features are availible right by iteration over VectorLayer instance. Geometric data is stored at <a href="https://apireference.aspose.com/net/gis/aspose.gis/feature/properties/geometry">Geometry</a> property of <a href="https://apireference.aspose.com/net/gis/aspose.gis/feature/">Feature</a>, and attributes can be read using <a href="https://apireference.aspose.com/net/gis/aspose.gis/feature/methods/getvalue/_1">GetValue&ltT&rt()</a> method:
+Geospatial features are availible right by iteration over VectorLayer instance. Geometric data is stored at <a href="https://apireference.aspose.com/net/gis/aspose.gis/feature/properties/geometry">Geometry</a> property of <a href="https://apireference.aspose.com/net/gis/aspose.gis/feature/">Feature</a>, and attributes can be read using <a href="https://apireference.aspose.com/net/gis/aspose.gis/feature/methods/getvalue/_1">GetValue&lt;T&rt;()</a> method:
 ```csharp
 using (var layer = Drivers.OsmXml.OpenLayer(dataDir + "fountain.osm"))
 {
