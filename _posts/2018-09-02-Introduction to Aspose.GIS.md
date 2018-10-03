@@ -1,4 +1,7 @@
-Introduction to Aspose.GIS.
+---
+layout: post
+title: Introduction to Aspose.GIS
+---
 
 <a href="https://products.aspose.com/gis">Aspose.GIS</a> is a software library for .NET platforms that does all the common tasks related to geospatial data files: it converts between supported data formats, can convert geospatial data between different spatial reference systems, even allowing use of a custom reference system, provides convenient API for reading and editing of geospatial data and its attributes from files and also for creation of geospatial data from scratch. More than that, Aspose.GIS can perform some basic analysis of geospatial data, such as determining intersections and overlaps of geometric entities and validating geospatial data.
 Here I will show basic examples on how to use these functions of Aspose.GIS. Later, I will explore these features deeper in separate articles.
