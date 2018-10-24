@@ -264,17 +264,17 @@ Returns geometry that is a sum of this and argument geometries, containing point
 The <a href="https://apireference.aspose.com/net/gis/aspose.gis.geometries/geometry/methods/relate">Relate</a> method allows one to specify any desired pattern for  <a href="https://en.wikipedia.org/wiki/DE-9IM">DE-9IM</a> intersection matrix. In fact, most of the above relation-deriving methods are wrappers for this method. Method builds DE-9IM matrix for the two geometries and tests if it fits the provided pattern.
 Pattern is a string of 9 characters.
 Each position represents specific spatial relation:
-0 - between interiors of geometries.
-1 - between interior of this geometry and boundary of the other.
-2 - between interior of this geometry and exterior of the other.
-3 - between boundary of this geometry and interor of the other.
-4 - between boundaries of the geometries.
-5 - between boundary of this geometry and exterior of the other.
-6 - between exterior of this geometry and interior of another geometry.
-7 - between exterior of this geometry and boundary of another geometry.
-8 - between exteriors of the geometries.
+* 0 - between interiors of geometries.
+* 1 - between interior of this geometry and boundary of the other.
+* 2 - between interior of this geometry and exterior of the other.
+* 3 - between boundary of this geometry and interor of the other.
+* 4 - between boundaries of the geometries.
+* 5 - between boundary of this geometry and exterior of the other.
+* 6 - between exterior of this geometry and interior of another geometry.
+* 7 - between exterior of this geometry and boundary of another geometry.
+* 8 - between exteriors of the geometries.
 Each character can have the following values:
-* * - any value
+* \* - any value
 * F - no intersection
 * T - any intersection
 * 0 - point intersection (shared point)
