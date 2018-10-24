@@ -274,12 +274,12 @@ Each position represents specific spatial relation:
 7 - between exterior of this geometry and boundary of another geometry.
 8 - between exteriors of the geometries.
 Each character can have the following values:
-* - any value
-F - no intersection
-T - any intersection
-0 - point intersection (shared point)
-1 - line intersection (shared line segment)
-2 - surface intersection (shared part of polygon)
+* * - any value
+* F - no intersection
+* T - any intersection
+* 0 - point intersection (shared point)
+* 1 - line intersection (shared line segment)
+* 2 - surface intersection (shared part of polygon)
 
 For example, an intersection pattern "F0*******" means, that there should not be intersection between geometries interiors and intersection between geometries boundaries must be a point.
 Also you can see <a href="http://www.opengeospatial.org/standards/sfa">OpenGIS Simple Features Specification</a> for more details.
