@@ -273,6 +273,7 @@ Each position represents specific spatial relation:
 * 6 - between exterior of this geometry and interior of another geometry.
 * 7 - between exterior of this geometry and boundary of another geometry.
 * 8 - between exteriors of the geometries.
+
 Each character can have the following values:
 * \* - any value
 * F - no intersection
