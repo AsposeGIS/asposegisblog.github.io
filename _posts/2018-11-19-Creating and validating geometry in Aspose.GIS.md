@@ -1,3 +1,9 @@
+---
+layout: post
+title: Creation and validation of geometry in Aspose.GIS
+---
+
+
 <a href="https://products.aspose.com/gis/">Aspose.GIS</a> handles geospatial data in a common way regardless of storage format, as all the GIS data formats store, in principle, the same kind of data. As such, methods to create and check geometric data are not coupled to format and can be used in any case. In this article I will overview how to create geometric data in Aspose.GIS and check its validity.
 
 ## Creation of Point, LineString and Polygon
